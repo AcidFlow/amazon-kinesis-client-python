@@ -50,7 +50,7 @@ else:
 
 PACKAGE_NAME = 'amazon_kclpy'
 JAR_DIRECTORY = os.path.join(PACKAGE_NAME, 'jars')
-PACKAGE_VERSION = '1.5.1'
+PACKAGE_VERSION = '1.5.2'
 PYTHON_REQUIREMENTS = [
     'boto',
     # argparse is part of python2.7 but must be declared for python2.6
@@ -60,30 +60,30 @@ PYTHON_REQUIREMENTS = [
 ]
 REMOTE_MAVEN_PACKAGES = [
     # (group id, artifact id, version),
-    ('com.amazonaws', 'amazon-kinesis-client', '1.9.3'),
-    ('com.amazonaws', 'aws-java-sdk-dynamodb', '1.11.438'),
-    ('com.amazonaws', 'aws-java-sdk-s3', '1.11.438'),
-    ('com.amazonaws', 'aws-java-sdk-kms', '1.11.438'),
-    ('com.amazonaws', 'aws-java-sdk-core', '1.11.438'),
-    ('org.apache.httpcomponents', 'httpclient', '4.5.5'),
-    ('org.apache.httpcomponents', 'httpcore', '4.4.9'),
-    ('commons-codec', 'commons-codec', '1.10'),
+    ('com.amazonaws', 'amazon-kinesis-client', '1.14.2'),
+    ('com.amazonaws', 'aws-java-sdk-dynamodb', '1.11.844'),
+    ('com.amazonaws', 'aws-java-sdk-s3', '1.11.844'),
+    ('com.amazonaws', 'aws-java-sdk-kms', '1.11.844'),
+    ('com.amazonaws', 'aws-java-sdk-core', '1.11.844'),
+    ('org.apache.httpcomponents', 'httpclient', '4.5.9'),
+    ('org.apache.httpcomponents', 'httpcore', '4.4.11'),
+    ('commons-codec', 'commons-codec', '1.11'),
     ('software.amazon.ion', 'ion-java', '1.0.2'),
-    ('com.fasterxml.jackson.core', 'jackson-databind', '2.6.7.1'),
+    ('com.fasterxml.jackson.core', 'jackson-databind', '2.6.7.3'),
     ('com.fasterxml.jackson.core', 'jackson-annotations', '2.6.0'),
     ('com.fasterxml.jackson.core', 'jackson-core', '2.6.7'),
     ('com.fasterxml.jackson.dataformat', 'jackson-dataformat-cbor', '2.6.7'),
     ('joda-time', 'joda-time', '2.8.1'),
-    ('com.amazonaws', 'jmespath-java', '1.11.438'),
-    ('com.amazonaws', 'aws-java-sdk-kinesis', '1.11.438'),
-    ('com.amazonaws', 'aws-java-sdk-cloudwatch', '1.11.438'),
+    ('com.amazonaws', 'jmespath-java', '1.11.844'),
+    ('com.amazonaws', 'aws-java-sdk-kinesis', '1.11.844'),
+    ('com.amazonaws', 'aws-java-sdk-cloudwatch', '1.11.844'),
     ('com.google.guava', 'guava', '26.0-jre'),
     ('com.google.code.findbugs', 'jsr305', '3.0.2'),
     ('org.checkerframework', 'checker-qual', '2.5.2'),
     ('com.google.errorprone', 'error_prone_annotations', '2.1.3'),
     ('com.google.j2objc', 'j2objc-annotations', '1.1'),
     ('org.codehaus.mojo', 'animal-sniffer-annotations', '1.14'),
-    ('com.google.protobuf', 'protobuf-java', '2.6.1'),
+    ('com.google.protobuf', 'protobuf-java', '3.11.4'),
     ('org.apache.commons', 'commons-lang3', '3.7'),
     ('commons-logging', 'commons-logging', '1.1.3')
 ]
